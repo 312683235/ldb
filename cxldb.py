@@ -1,8 +1,7 @@
 #陈翔六点半优酷视频抓取
-from urllib.parse import urlencode
 from lxml import etree
 import pandas as pd
-import requests,json
+import requests
 
 
 def get_index():
